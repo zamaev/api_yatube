@@ -1,6 +1,6 @@
-from django.shortcuts import get_object_or_404
 from rest_framework import viewsets
 from rest_framework.exceptions import PermissionDenied
+from rest_framework.shortcuts import get_object_or_404
 
 from api.serializers import CommentSerializer, GroupSerializer, PostSerializer
 from posts.models import Comment, Group, Post
